@@ -1,0 +1,2 @@
+rootProject.name = "Multiplication Table Generator"
+include ':app'

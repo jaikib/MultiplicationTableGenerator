@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ENTER THE NUMBER:"
+        android:id="@+id/text"
+        android:textSize="25sp"
+        android:textColor="#2b50a9"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+         />
+    <EditText
+        android:id="@+id/editTextEnterPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="20dp"
+        android:inputType="number"
+        android:textSize="50sp"
+        android:gravity="center"
+        android:textColor="#2b50a9"
+        android:digits="0123456789"
+       android:background="@drawable/bottom_border"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/button"
+        android:text="generate table"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:layout_marginTop="50dp"
+        android:id="@+id/generateButton"
+        android:layout_below="@+id/editTextEnterPassword"
+        />
+
+</RelativeLayout>
